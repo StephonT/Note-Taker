@@ -13,6 +13,7 @@ app.get('/api/notes', (req, res) => {
   res.json(notes);
 });
 
+
 // route to index.html 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname,'./public/index.html'));
