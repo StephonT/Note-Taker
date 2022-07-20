@@ -15,10 +15,16 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 //Middleware Functions
+
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
+
 // parse incoming JSON data
 app.use(express.json());
+
+//middleware for public files
+app.use(express.static('public'));
+
 // End of Middleware
 
 function createNewNote(body, notesArray) {
@@ -77,8 +83,21 @@ if (!validateNote(req.body)) {
   res.json(notes);
 }
 
+});
 
+// delete notes
+app.delete('/api/notes/:id', (req, res) => {
+  const id = req.params.id;
+  let note;
 
+  notes.map((element, index) => {
+    if (element.id == id){
+      note = element
+      notes.splice(index, 1)
+      return res.json(note);
+    } 
+  
+  })
 });
 
 
