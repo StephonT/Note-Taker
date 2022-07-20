@@ -17,6 +17,9 @@
 
   ## Usage
   If the repo is cloned, call npm start on the command line. When on the application, add notes by clicking the pencil icon on the top right and save using the save icon on the top right. Users can view previous notes by clicking on them on the left side list. Users can also delete an item by clicking the trash icon for each note.
+  
+  ![Note Taker Screenshot](https://user-images.githubusercontent.com/104699408/180008742-ee76d803-256d-4907-a509-8fe03d5ed232.jpg)
+
 
   ## License
   This project is license under MIT
