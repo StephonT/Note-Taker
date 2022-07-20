@@ -31,7 +31,7 @@ Link to deployed app on <a href="https://not3-t4ker.herokuapp.com/" target="_bla
   Contributors should read the installation section.
   
   ## Tests
-  npm test
+  There are no test for this application
 
   ## Questions
   If you have any questions about this project, please contact me directly at streadwe@gmail.com. You can view more of my projects at https://github.com/StephonT.
