@@ -20,7 +20,7 @@
   
   ![Note Taker Screenshot](https://user-images.githubusercontent.com/104699408/180008742-ee76d803-256d-4907-a509-8fe03d5ed232.jpg)
 <br>
-Link to deployed app on <a href="https://not3-t4ker.herokuapp.com/">Heroku</a>
+Link to deployed app on <a href="https://not3-t4ker.herokuapp.com/" target="_blank">Heroku</a>
 
 
 
